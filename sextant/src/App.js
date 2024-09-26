@@ -1,14 +1,17 @@
 import './App.css';
 import Banner from './Banner';
 import Exhibit from './Exhibit';
+import IPDisplay from './IPDisplay';
 
 function App() {
   return (
     <div className="App">
       <Banner title="Sextant" />
       <Exhibit>
-        <h2>Welcome to Sextant</h2>
-        <p>This is a simple exhibit component to display information.</p>
+        <IPDisplay version="IPv4" />
+      </Exhibit>
+      <Exhibit>
+        <IPDisplay version="IPv6" />
       </Exhibit>
     </div>
   );

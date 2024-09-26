@@ -5,3 +5,12 @@
   h2 {
     color: #333;
   }
+
+  
+  .exhibit {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 20px;
+    margin: 20px;
+    background-color: #f9f9f9;
+  }
